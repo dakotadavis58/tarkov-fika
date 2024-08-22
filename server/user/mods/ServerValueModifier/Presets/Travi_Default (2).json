@@ -4,10 +4,10 @@
     "HeatFactor": 1,
     "ExamineTime": 1,
     "ExamineKeys": true,
-    "AddSignalPistolToSpec": false,
+    "AddSignalPistolToSpec": true,
     "WeaponHeatOff": false,
-    "SMGToHolster": false,
-    "PistolToMain": false,
+    "SMGToHolster": true,
+    "PistolToMain": true,
     "AllExaminedItems": true,
     "MisfireChance": 1,
     "EquipRigsWithArmors": false,
@@ -15,9 +15,10 @@
     "MalfunctChanceMult": 1,
     "WeightChanger": 1,
     "ItemPriceMult": 1,
-    "BSGCashStack": false,
+    "EnableCurrency": false,
     "RubStack": 500000,
     "DollarStack": 50000,
+    "GPStack": 20,
     "EuroStack": 50000,
     "AmmoLoadSpeed": 1,
     "LootExp": 1,
@@ -41,11 +42,12 @@
     "NoGearPenalty": false,
     "IDBox": "",
     "RemoveKeysUsageNumber": false,
-    "RaidDrop": true
+    "RaidDrop": false
   },
   "Hideout": {
     "EnableStash": false,
     "Stash": {
+      "StashTUE": 72,
       "StashLvl4": 68,
       "StashLvl3": 48,
       "StashLvl2": 38,
@@ -60,20 +62,20 @@
       "HydrationRegen": 1,
       "EnergyRegen": 1
     },
-    "WaterFilterTime": 325,
-    "BitcoinTime": 2416,
-    "MaxBitcoins": 3,
+    "WaterFilterTime": 60,
+    "BitcoinTime": 2000,
+    "MaxBitcoins": 5,
     "NoFuelMult": 1,
     "ScavCasePrice": 1,
     "ScavCaseTime": 1,
-    "HideoutConstMult": 0.001,
-    "HideoutProdMult": 0.001,
+    "HideoutConstMult": 1,
+    "HideoutProdMult": 1,
     "WaterFilterRate": 66,
     "GPUBoostRate": 1,
     "AirFilterRate": 1,
-    "RemoveConstructionsRequirements": false,
-    "RemoveSkillRequirements": false,
-    "RemoveTraderLevelRequirements": false,
+    "RemoveConstructionsRequirements": true,
+    "RemoveSkillRequirements": true,
+    "RemoveTraderLevelRequirements": true,
     "EnableHideout": true,
     "FuelConsumptionRate": 1
   },
@@ -123,7 +125,7 @@
     "EnableTraders": true,
     "FIRRestrictsQuests": true,
     "TradersLvl4": false,
-    "FIRTrade": false
+    "FIRTrade": true
   },
   "Loot": {
     "Airdrops": {
@@ -283,7 +285,7 @@
   },
   "Raids": {
     "SandboxAccessLevel": 99,
-    "RaidTime": 30,
+    "RaidTime": 60,
     "SaveQuestItems": true,
     "Exfils": {
       "CarSandbox": 5000,
@@ -323,13 +325,13 @@
       "BossesOnCustoms": false,
       "BossesOnHealthResort": false,
       "HealthResortIncludeGuards": false,
-      "HoundsWoods": 30,
-      "HoundsCustoms": 30,
+      "HoundsWoods": 5,
+      "HoundsCustoms": 5,
       "SkierFighters": 4,
       "PeaceFighters": 15,
       "Christmas": false,
       "Halloween": false,
-      "IncludeTagilla": false,
+      "IncludeStreetBosses": false,
       "KillaFactory": false,
       "BossesOnReserve": false,
       "RaidersEverywhere": false,
@@ -342,7 +344,7 @@
       "TimeBeforeDeployLocal": 10,
       "AIAmount": "High",
       "SaveLoot": true,
-      "AIDifficulty": "AsOnline",
+      "AIDifficulty": "Random",
       "MIAEndofRaid": true,
       "TaggedAndCursed": false,
       "EnableBosses": true,
@@ -352,7 +354,7 @@
   "Fleamarket": {
     "FleaFIR": false,
     "FleaNoFIRSell": false,
-    "EventOffers": true,
+    "EventOffers": false,
     "SellOffersAmount": 10,
     "FleaConditions": {
       "FleaFood_Min": 5,
@@ -404,7 +406,7 @@
       "NoRandomRepair": false,
       "OpGunRepair": false,
       "ArmorSkillMult": 0.05,
-      "WeaponMaintenanceSkillMult": 0.05,
+      "WeaponMaintenanceSkillMult": 0.6,
       "IntellectSkillMultWeaponKit": 0.045,
       "IntellectSkillMultArmorKit": 0.03,
       "IntellectSkillLimitTraders": 0.6,
@@ -420,8 +422,8 @@
     "FreeHealLvl": 5,
     "FreeHealRaids": 30,
     "ReturnChanceTherapist": 100,
-    "InsuranceInterval": 120,
-    "InsuranceTimeOverride": 140,
+    "InsuranceInterval": 60,
+    "InsuranceTimeOverride": 5,
     "EnableTimeOverride": true,
     "InsuranceMultTherapistLvl1": 20,
     "InsuranceMultTherapistLvl2": 21,
@@ -437,8 +439,8 @@
     "ReturnChancePrapor": 100,
     "ClothesLevelUnlock": true,
     "ClothesFree": true,
-    "Prapor_Max": 1,
-    "Prapor_Min": 1,
+    "Prapor_Max": 0,
+    "Prapor_Min": 0,
     "Therapist_Max": 0,
     "Therapist_Min": 0
   },
@@ -495,6 +497,8 @@
     }
   },
   "CSM": {
+    "EnableCases": false,
+    "EnableSecureCases": false,
     "CustomPocket": false,
     "Pockets": {
       "DefaultPocket": false,
@@ -531,8 +535,8 @@
         "Filter": false
       },
       "Holodilnick": {
-        "VSize": 7,
-        "HSize": 7,
+        "VSize": 8,
+        "HSize": 8,
         "Filter": false
       },
       "PistolCase": {
@@ -591,8 +595,8 @@
         "Filter": false
       },
       "ItemsCase": {
-        "VSize": 7,
-        "HSize": 7,
+        "VSize": 8,
+        "HSize": 8,
         "Filter": false
       },
       "GrenadeCase": {
@@ -628,6 +632,8 @@
       "AlphaHSize": 2,
       "GammaHSize": 3,
       "GammaVSize": 3,
+      "GammaTUEHSize": 3,
+      "GammaTUEVSize": 3,
       "BetaVSize": 2,
       "BetaHSize": 3,
       "EpsilonHSize": 4,
@@ -674,29 +680,29 @@
   },
   "Bots": {
     "AIChance": {
-      "KolontayStreets": 37,
-      "KolontayGZ": 45,
-      "Kaban": 30,
-      "TagillaNight": 30,
-      "TrioLighthouse": 30,
-      "TrioShoreline": 30,
-      "TrioWoods": 30,
+      "KolontayStreets": 100,
+      "KolontayGZ": 100,
+      "Kaban": 100,
+      "TagillaNight": 100,
+      "TrioLighthouse": 35,
+      "TrioShoreline": 35,
+      "TrioWoods": 35,
       "Zryachiy": 100,
-      "CultistCustoms": 20,
-      "CultistShoreline": 30,
-      "Trio": 30,
-      "RaiderLab": 40,
-      "RaiderReserve": 35,
-      "CultistFactory": 25,
-      "CultistWoods": 35,
-      "CultistGroundZero": 44,
-      "Rogue": 65,
-      "Tagilla": 30,
-      "Shturman": 30,
-      "Glukhar": 30,
-      "Sanitar": 30,
-      "Reshala": 30,
-      "Killa": 30
+      "CultistCustoms": 100,
+      "CultistShoreline": 100,
+      "Trio": 35,
+      "RaiderLab": 100,
+      "RaiderReserve": 100,
+      "CultistFactory": 100,
+      "CultistWoods": 100,
+      "CultistGroundZero": 100,
+      "Rogue": 100,
+      "Tagilla": 100,
+      "Shturman": 100,
+      "Glukhar": 100,
+      "Sanitar": 100,
+      "Reshala": 100,
+      "Killa": 100
     },
     "ArmorDurab": {
       "PMCMax": 100,
@@ -751,13 +757,13 @@
     "AItoPMC": {
       "PMCtoCursedScav": 20,
       "SnipertoPMC": 0,
-      "PMCtoScav": 25,
+      "PMCtoScav": 30,
       "ExusectoPMC": 5,
       "PMCtoRaider": 7
     },
     "DisableLowLevelPMC": false,
     "LootableMelee": false,
-    "EnablePMC": false
+    "EnablePMC": true
   },
   "Custom": {
     "EnableCustom": false,
