@@ -1,0 +1,240 @@
+[2024-08-21T23:53:31.785Z] debug: 	Importing configs...
+[2024-08-21T23:53:31.932Z] info: 	Commit hash: 2529c65e8072a65d32b7e38d436933e3efea4c0f
+[2024-08-21T23:53:31.932Z] info: 	Build date: 1724281469538
+[2024-08-21T23:53:32.159Z] info: 	ModLoader: loading: 1 server mods...
+[2024-08-21T23:53:32.160Z] info: 	ModLoader: order.json is missing, creating...
+[2024-08-21T23:53:32.934Z] debug: 	Mod fika-server hash stored in ./user/cache/modCache.json
+[2024-08-21T23:53:34.606Z] info: 	Mod: server version: 2.2.8 by: Fika loaded
+[2024-08-21T23:53:35.363Z] info: 	Server: executing startup callbacks...
+[2024-08-21T23:53:35.363Z] debug: 	OS: x64 | #1 SMP Fri Mar 29 23:14:13 UTC 2024 | linux
+[2024-08-21T23:53:35.364Z] debug: 	CPU: 11th Gen Intel(R) Core(TM) i7-11700K @ 3.60GHz cores: 16
+[2024-08-21T23:53:35.364Z] debug: 	RAM: 23.40GB
+[2024-08-21T23:53:35.368Z] debug: 	PATH: L29wdC9zZXJ2ZXIvU1BULlNlcnZlci5leGU=
+[2024-08-21T23:53:35.368Z] debug: 	PATH: L29wdC9zZXJ2ZXIvU1BULlNlcnZlci5leGU=
+[2024-08-21T23:53:35.368Z] debug: 	Server: 3.9.5
+[2024-08-21T23:53:35.368Z] debug: 	Date: 1724281469538
+[2024-08-21T23:53:35.368Z] debug: 	Commit: 2529c65e8072a65d32b7e38d436933e3efea4c0f
+[2024-08-21T23:53:35.371Z] info: 	Importing database...
+[2024-08-21T23:54:11.763Z] info: 	Database import finished
+[2024-08-21T23:54:18.339Z] debug: 	Importing configs...
+[2024-08-21T23:54:18.490Z] info: 	Commit hash: 2529c65e8072a65d32b7e38d436933e3efea4c0f
+[2024-08-21T23:54:18.490Z] info: 	Build date: 1724281469538
+[2024-08-21T23:54:18.714Z] info: 	ModLoader: loading: 1 server mods...
+[2024-08-21T23:54:19.498Z] info: 	Mod: server version: 2.2.8 by: Fika loaded
+[2024-08-21T23:54:20.269Z] info: 	Server: executing startup callbacks...
+[2024-08-21T23:54:20.269Z] debug: 	OS: x64 | #1 SMP Fri Mar 29 23:14:13 UTC 2024 | linux
+[2024-08-21T23:54:20.270Z] debug: 	CPU: 11th Gen Intel(R) Core(TM) i7-11700K @ 3.60GHz cores: 16
+[2024-08-21T23:54:20.270Z] debug: 	RAM: 23.40GB
+[2024-08-21T23:54:20.274Z] debug: 	PATH: L29wdC9zZXJ2ZXIvU1BULlNlcnZlci5leGU=
+[2024-08-21T23:54:20.274Z] debug: 	PATH: L29wdC9zZXJ2ZXIvU1BULlNlcnZlci5leGU=
+[2024-08-21T23:54:20.274Z] debug: 	Server: 3.9.5
+[2024-08-21T23:54:20.274Z] debug: 	Date: 1724281469538
+[2024-08-21T23:54:20.275Z] debug: 	Commit: 2529c65e8072a65d32b7e38d436933e3efea4c0f
+[2024-08-21T23:54:20.279Z] info: 	Importing database...
+[2024-08-21T23:54:25.676Z] info: 	Database import finished
+[2024-08-21T23:54:26.426Z] debug: 	4 Profiles took: 129.18ms to load.
+[2024-08-21T23:54:29.573Z] succ: 	Started webserver at http://0.0.0.0:6969
+[2024-08-21T23:54:29.574Z] succ: 	Started websocket at ws://0.0.0.0:6969
+[2024-08-21T23:54:29.574Z] succ: 	Server is running, do not close while playing SPT, Happy playing!!
+[2024-08-21T23:54:34.704Z] debug: 	Saved 4 profiles, took: 104.78ms
+[2024-08-21T23:54:45.089Z] info: 	[Client Request] 172.17.0.1 \launcher\server\connect
+[2024-08-21T23:54:45.117Z] info: 	[Client Request] 172.17.0.1 \launcher\ping
+[2024-08-21T23:54:45.121Z] info: 	[Client Request] 172.17.0.1 \launcher\server\version
+[2024-08-21T23:54:45.130Z] info: 	[Client Request] 172.17.0.1 \files\launcher\bg.png
+[2024-08-21T23:54:45.153Z] info: 	[Client Request] 172.17.0.1 \launcher\ping
+[2024-08-21T23:54:45.201Z] info: 	[Client Request] 172.17.0.1 \launcher\profile\login
+[2024-08-21T23:54:45.205Z] info: 	[Client Request] 172.17.0.1 \launcher\profile\get
+[2024-08-21T23:54:45.210Z] info: 	[Client Request] 172.17.0.1 \launcher\profile\info
+[2024-08-21T23:54:45.218Z] info: 	[Client Request] 172.17.0.1 \launcher\server\version
+[2024-08-21T23:54:45.321Z] info: 	[Client Request] 172.17.0.1 \launcher\server\loadedServerMods
+[2024-08-21T23:54:45.329Z] info: 	[Client Request] 172.17.0.1 \launcher\server\serverModsUsedByProfile
+[2024-08-21T23:54:45.357Z] info: 	[Client Request] 172.17.0.1 \files\launcher\side_bear.png
+[2024-08-21T23:54:45.365Z] info: 	[Client Request] 172.17.0.1 \launcher\profile\login
+[2024-08-21T23:54:45.368Z] info: 	[Client Request] 172.17.0.1 \launcher\profile\get
+[2024-08-21T23:54:45.371Z] info: 	[Client Request] 172.17.0.1 \launcher\profile\info
+[2024-08-21T23:54:45.374Z] info: 	[Client Request] 172.17.0.1 \launcher\server\version
+[2024-08-21T23:54:54.642Z] debug: 	Saved 4 profiles, took: 31.14ms
+[2024-08-21T23:54:55.038Z] info: 	[Client Request] 172.17.0.1 \launcher\profile\login
+[2024-08-21T23:54:55.041Z] info: 	[Client Request] 172.17.0.1 \launcher\profile\get
+[2024-08-21T23:54:55.044Z] info: 	[Client Request] 172.17.0.1 \launcher\profile\info
+[2024-08-21T23:54:55.048Z] info: 	[Client Request] 172.17.0.1 \launcher\server\version
+[2024-08-21T23:54:55.100Z] info: 	[Client Request] 172.17.0.1 \launcher\server\version
+[2024-08-21T23:55:10.199Z] info: 	[Client Request] 172.17.0.1 \QuestingBots\GetConfig
+[2024-08-21T23:55:10.199Z] error: 	[UNHANDLED][/QuestingBots/GetConfig]
+[2024-08-21T23:55:10.203Z] info: 	[object Object]
+[2024-08-21T23:55:10.409Z] info: 	[Client Request] 172.17.0.1 \singleplayer\log
+[2024-08-21T23:55:10.411Z] error: 	[Questing Bots] !!!!! Cannot retrieve config.json data from the server. The mod will not work properly! !!!!!
+[2024-08-21T23:55:10.686Z] info: 	[Client Request] 172.17.0.1 \singleplayer\bossconvert
+[2024-08-21T23:55:11.233Z] info: 	[Client Request] 172.17.0.1 \fika\natpunchserver\config
+[2024-08-21T23:55:11.880Z] info: 	[Client Request] 172.17.0.1 \fika\client\config
+[2024-08-21T23:55:11.905Z] info: 	[Client Request] 172.17.0.1 \singleplayer\airdrop\config
+[2024-08-21T23:55:11.932Z] info: 	[Client Request] 172.17.0.1 \singleplayer\settings\bot\difficulties\
+[2024-08-21T23:55:12.077Z] info: 	[Client Request] 172.17.0.1 \singleplayer\settings\bot\difficulty\core\core
+[2024-08-21T23:55:14.638Z] debug: 	Saved 4 profiles, took: 25.71ms
+[2024-08-21T23:55:21.621Z] info: 	[Client Request] 172.17.0.1 \singleplayer\settings\version
+[2024-08-21T23:55:21.625Z] info: 	[Client Request] 172.17.0.1 \singleplayer\release
+[2024-08-21T23:55:21.632Z] info: 	[Client Request] 172.17.0.1 \singleplayer\enableBSGlogging
+[2024-08-21T23:55:22.434Z] info: 	[Client Request] 172.17.0.1 \MoreCheckmarksRoutes\quests
+[2024-08-21T23:55:22.434Z] error: 	[UNHANDLED][/MoreCheckmarksRoutes/quests]
+[2024-08-21T23:55:22.434Z] info: 	[object Object]
+[2024-08-21T23:55:23.082Z] info: 	[Client Request] 172.17.0.1 \singleplayer\bundles
+[2024-08-21T23:55:28.165Z] info: 	[Client Request] 172.17.0.1 \singleplayer\settings\version
+[2024-08-21T23:55:28.383Z] info: 	[Client Request] 172.17.0.1 \client\menu\locale\en
+[2024-08-21T23:55:28.440Z] info: 	[Client Request] 172.17.0.1 \client\game\mode
+[2024-08-21T23:55:28.508Z] info: 	[Client Request] 172.17.0.1 \client\game\start
+[2024-08-21T23:55:28.509Z] debug: 	Added custom boss wave to factory4_day of type pmcBEAR, time: -1, chance: 25, zone: BotZone
+[2024-08-21T23:55:28.509Z] debug: 	Added custom boss wave to factory4_day of type pmcUSEC, time: -1, chance: 25, zone: BotZone
+[2024-08-21T23:55:28.509Z] debug: 	Added custom boss wave to bigmap of type pmcBEAR, time: -1, chance: 25, zone: ZoneScavBase
+[2024-08-21T23:55:28.510Z] debug: 	Added custom boss wave to bigmap of type pmcUSEC, time: -1, chance: 25, zone: ZoneScavBase
+[2024-08-21T23:55:28.510Z] debug: 	Added custom boss wave to woods of type pmcBEAR, time: -1, chance: 25, zone: ZoneScavBase2
+[2024-08-21T23:55:28.510Z] debug: 	Added custom boss wave to woods of type pmcUSEC, time: -1, chance: 25, zone: ZoneScavBase2
+[2024-08-21T23:55:28.510Z] debug: 	Added custom boss wave to woods of type pmcBEAR, time: -1, chance: 25, zone: ZoneRoad
+[2024-08-21T23:55:28.510Z] debug: 	Added custom boss wave to woods of type pmcUSEC, time: -1, chance: 25, zone: ZoneRoad
+[2024-08-21T23:55:28.510Z] debug: 	Added custom boss wave to woods of type pmcBEAR, time: -1, chance: 25, zone: ZoneClearVill
+[2024-08-21T23:55:28.510Z] debug: 	Added custom boss wave to woods of type pmcUSEC, time: -1, chance: 25, zone: ZoneClearVill
+[2024-08-21T23:55:28.510Z] debug: 	Added custom boss wave to shoreline of type pmcBEAR, time: -1, chance: 20, zone: ZonePort
+[2024-08-21T23:55:28.510Z] debug: 	Added custom boss wave to shoreline of type pmcUSEC, time: -1, chance: 20, zone: ZonePort
+[2024-08-21T23:55:28.510Z] debug: 	Added custom boss wave to shoreline of type pmcUSEC, time: -1, chance: 10, zone: ZoneSanatorium1
+[2024-08-21T23:55:28.510Z] debug: 	Added custom boss wave to shoreline of type pmcBEAR, time: -1, chance: 10, zone: ZoneSanatorium1
+[2024-08-21T23:55:28.510Z] debug: 	Added custom boss wave to shoreline of type pmcUSEC, time: -1, chance: 10, zone: ZoneSanatorium2
+[2024-08-21T23:55:28.510Z] debug: 	Added custom boss wave to shoreline of type pmcBEAR, time: -1, chance: 10, zone: ZoneSanatorium2
+[2024-08-21T23:55:28.510Z] debug: 	Added custom boss wave to laboratory of type pmcBEAR, time: -1, chance: 30, zone: BotZoneFloor1
+[2024-08-21T23:55:28.510Z] debug: 	Added custom boss wave to laboratory of type pmcBEAR, time: -1, chance: 30, zone: BotZoneFloor2
+[2024-08-21T23:55:28.510Z] debug: 	Added custom boss wave to laboratory of type pmcBEAR, time: -1, chance: 30, zone: BotZoneBasement
+[2024-08-21T23:55:28.510Z] debug: 	Added custom boss wave to laboratory of type pmcUSEC, time: -1, chance: 30, zone: BotZoneFloor1
+[2024-08-21T23:55:28.510Z] debug: 	Added custom boss wave to laboratory of type pmcUSEC, time: -1, chance: 30, zone: BotZoneFloor2
+[2024-08-21T23:55:28.510Z] debug: 	Added custom boss wave to laboratory of type pmcUSEC, time: -1, chance: 30, zone: BotZoneBasement
+[2024-08-21T23:55:28.510Z] debug: 	Added custom boss wave to interchange of type pmcBEAR, time: -1, chance: 15, zone: ZoneCenter,ZoneCenterBot,ZoneOLI,ZoneIDEA,ZoneGoshan,ZonePowerStation
+[2024-08-21T23:55:28.510Z] debug: 	Added custom boss wave to interchange of type pmcUSEC, time: -1, chance: 15, zone: ZoneCenter,ZoneCenterBot,ZoneOLI,ZoneIDEA,ZoneGoshan,ZonePowerStation
+[2024-08-21T23:55:28.510Z] debug: 	Added custom boss wave to lighthouse of type pmcBEAR, time: -1, chance: 15, zone: Zone_Village,Zone_Chalet,Zone_DestroyedHouse,Zone_Rocks,Zone_OldHouse
+[2024-08-21T23:55:28.510Z] debug: 	Added custom boss wave to lighthouse of type pmcUSEC, time: -1, chance: 15, zone: Zone_Village,Zone_Chalet,Zone_DestroyedHouse,Zone_Rocks,Zone_OldHouse
+[2024-08-21T23:55:28.510Z] debug: 	Added custom boss wave to rezervbase of type pmcBEAR, time: -1, chance: 15, zone: ZoneBarrack,ZonePTOR1,ZonePTOR2,ZoneSubCommand,ZoneSubStorage,ZoneRailStrorage
+[2024-08-21T23:55:28.510Z] debug: 	Added custom boss wave to rezervbase of type pmcBEAR, time: -1, chance: 15, zone: ZoneBarrack,ZonePTOR1,ZonePTOR2,ZoneSubCommand,ZoneSubStorage,ZoneRailStrorage
+[2024-08-21T23:55:28.510Z] debug: 	Added custom boss wave to rezervbase of type pmcUSEC, time: -1, chance: 15, zone: ZoneBarrack,ZonePTOR1,ZonePTOR2,ZoneSubCommand,ZoneSubStorage,ZoneRailStrorage
+[2024-08-21T23:55:28.511Z] debug: 	Added custom boss wave to rezervbase of type pmcUSEC, time: -1, chance: 15, zone: ZoneBarrack,ZonePTOR1,ZonePTOR2,ZoneSubCommand,ZoneSubStorage,ZoneRailStrorage
+[2024-08-21T23:55:28.511Z] debug: 	Added custom boss wave to sandbox of type pmcBEAR, time: -1, chance: 30, zone: ZoneSandbox
+[2024-08-21T23:55:28.511Z] debug: 	Added custom boss wave to sandbox of type pmcUSEC, time: -1, chance: 30, zone: ZoneSandbox
+[2024-08-21T23:55:28.511Z] debug: 	Added custom boss wave to sandbox_high of type pmcBEAR, time: -1, chance: 30, zone: ZoneSandbox
+[2024-08-21T23:55:28.511Z] debug: 	Added custom boss wave to sandbox_high of type pmcUSEC, time: -1, chance: 30, zone: ZoneSandbox
+[2024-08-21T23:55:28.511Z] debug: 	Started game with sessionId: 66a97d9a00012b75b3247eb2 StoneColdStu
+[2024-08-21T23:55:28.511Z] debug: 	Fixed assault Spawn: bigmap wave: 0 of type: assault in zone: ZoneBrige with Max Slots of 0
+[2024-08-21T23:55:28.512Z] debug: 	Fixed assault Spawn: bigmap wave: 1 of type: assault in zone: ZoneCrossRoad with Max Slots of 0
+[2024-08-21T23:55:28.512Z] debug: 	Fixed assault Spawn: bigmap wave: 15 of type: assault in zone: ZoneBlockPost with Max Slots of 0
+[2024-08-21T23:55:28.512Z] debug: 	Fixed assault Spawn: bigmap wave: 0 of type: assault in zone:  with Max Slots of 0
+[2024-08-21T23:55:28.512Z] debug: 	Fixed marksman Spawn: lighthouse wave: 2 of type: marksman in zone: Zone_SniperPeak with Max Slots of 1
+[2024-08-21T23:55:28.512Z] debug: 	Fixed assault Spawn: rezervbase wave: 2 of type: assault in zone:  with Max Slots of 2
+[2024-08-21T23:55:28.512Z] debug: 	Fixed assault Spawn: rezervbase wave: 7 of type: assault in zone:  with Max Slots of 2
+[2024-08-21T23:55:28.512Z] debug: 	Fixed marksman Spawn: sandbox wave: 4 of type: marksman in zone: ZoneSandSnipeCenter with Max Slots of 1
+[2024-08-21T23:55:28.512Z] debug: 	Fixed marksman Spawn: sandbox wave: 6 of type: marksman in zone: ZoneSandSnipeCenter with Max Slots of 1
+[2024-08-21T23:55:28.512Z] debug: 	Fixed marksman Spawn: sandbox wave: 8 of type: marksman in zone: ZoneSandSnipeCenter with Max Slots of 1
+[2024-08-21T23:55:28.512Z] debug: 	Fixed marksman Spawn: sandbox wave: 9 of type: marksman in zone: ZoneSandSnipeCenter with Max Slots of 1
+[2024-08-21T23:55:28.512Z] debug: 	Fixed marksman Spawn: sandbox_high wave: 3 of type: marksman in zone: ZoneSnipeStilo with Max Slots of 1
+[2024-08-21T23:55:28.512Z] debug: 	Fixed marksman Spawn: sandbox_high wave: 5 of type: marksman in zone: ZoneSnipeCard with Max Slots of 1
+[2024-08-21T23:55:28.512Z] debug: 	Fixed marksman Spawn: sandbox_high wave: 7 of type: marksman in zone: ZoneSnipeBuilding with Max Slots of 1
+[2024-08-21T23:55:28.512Z] debug: 	Fixed marksman Spawn: sandbox_high wave: 8 of type: marksman in zone: ZoneSnipeSW01 with Max Slots of 1
+[2024-08-21T23:55:28.512Z] debug: 	Fixed marksman Spawn: shoreline wave: 9 of type: marksman in zone: ZonePowerStationSniper with Max Slots of 0
+[2024-08-21T23:55:28.512Z] debug: 	Fixed assault Spawn: woods wave: 6 of type: assault in zone: ZoneWoodCutter with Max Slots of 0
+[2024-08-21T23:55:28.512Z] debug: 	Fixed assault Spawn: woods wave: 7 of type: assault in zone: ZoneBigRocks with Max Slots of 0
+[2024-08-21T23:55:28.512Z] debug: 	Fixed assault Spawn: woods wave: 8 of type: assault in zone: ZoneRoad with Max Slots of 0
+[2024-08-21T23:55:28.512Z] debug: 	Fixed marksman Spawn: woods wave: 9 of type: marksman in zone: ZoneHighRocks with Max Slots of 1
+[2024-08-21T23:55:28.513Z] debug: 	Splitting map: bigmap wave: 19 with 4 bots
+[2024-08-21T23:55:28.513Z] debug: 	Splitting map: bigmap wave: 24 with 4 bots
+[2024-08-21T23:55:28.513Z] debug: 	Splitting map: Lighthouse wave: 3 with 4 bots
+[2024-08-21T23:55:28.513Z] debug: 	Splitting map: Shoreline wave: 16 with 4 bots
+[2024-08-21T23:55:28.513Z] debug: 	Splitting map: Shoreline wave: 27 with 5 bots
+[2024-08-21T23:55:28.513Z] debug: 	Splitting map: Shoreline wave: 32 with 5 bots
+[2024-08-21T23:55:28.513Z] debug: 	Splitting map: Shoreline wave: 37 with 6 bots
+[2024-08-21T23:55:28.513Z] debug: 	Splitting map: Shoreline wave: 43 with 6 bots
+[2024-08-21T23:55:28.513Z] debug: 	Splitting map: Woods wave: 15 with 4 bots
+[2024-08-21T23:55:28.513Z] debug: 	Splitting map: Woods wave: 19 with 4 bots
+[2024-08-21T23:55:28.513Z] debug: 	Splitting map: Woods wave: 23 with 4 bots
+[2024-08-21T23:55:28.513Z] debug: 	Splitting map: Woods wave: 27 with 5 bots
+[2024-08-21T23:55:28.513Z] debug: 	Splitting map: Woods wave: 32 with 4 bots
+[2024-08-21T23:55:28.517Z] error: 	Trader: bluehead_aiotrader found in profile but does not exist in SPT. You WILL experience errors, this can be due to using an trader mod and removing the mod without deleting the messages from said trader. DO NOT USE THIS PROFILE. Open SPT_Data\Server\configs\core.json, edit 'removeModItemsFromProfile' to be true. This will allow the server to edit your profile and hopefully remove the bad messages
+[2024-08-21T23:55:28.519Z] debug: 	Removed 66b044327c3f94418f000002 TaskConditionCounter object
+[2024-08-21T23:55:28.522Z] debug: 	Profile made with: 3.9.4 (30626)
+[2024-08-21T23:55:28.522Z] debug: 	Server version: 3.9.5 2529c65e8072a65d32b7e38d436933e3efea4c0f
+[2024-08-21T23:55:28.522Z] debug: 	Debug enabled: false
+[2024-08-21T23:55:28.522Z] debug: 	Mods enabled: true
+[2024-08-21T23:55:28.605Z] info: 	[Client Request] 172.17.0.1 \client\game\version\validate
+[2024-08-21T23:55:28.657Z] info: 	[Client Request] 172.17.0.1 \client\languages
+[2024-08-21T23:55:28.700Z] info: 	[Client Request] 172.17.0.1 \client\game\config
+[2024-08-21T23:55:29.155Z] info: 	[Client Request] 172.17.0.1 \fika\client\check\version
+[2024-08-21T23:55:29.193Z] info: 	[Client Request] 172.17.0.1 \fika\client\check\mods
+[2024-08-21T23:55:31.688Z] info: 	[Client Request] 172.17.0.1 \client\items
+[2024-08-21T23:55:34.684Z] debug: 	Saved 4 profiles, took: 52.81ms
+[2024-08-21T23:55:38.946Z] info: 	[Client Request] 172.17.0.1 \client\customization
+[2024-08-21T23:55:39.156Z] info: 	[Client Request] 172.17.0.1 \client\globals
+[2024-08-21T23:55:39.875Z] info: 	[Client Request] 172.17.0.1 \client\trading\api\traderSettings
+[2024-08-21T23:55:39.942Z] info: 	[Client Request] 172.17.0.1 \client\settings
+[2024-08-21T23:55:39.995Z] info: 	[Client Request] 172.17.0.1 \client\game\profile\list
+[2024-08-21T23:55:40.742Z] info: 	[Client Request] 172.17.0.1 \client\game\profile\select
+[2024-08-21T23:55:40.786Z] info: 	[Client Request] 172.17.0.1 \client\profile\status
+[2024-08-21T23:55:40.852Z] info: 	[Client Request] 172.17.0.1 \client\weather
+[2024-08-21T23:55:40.856Z] info: 	[Client Request] 172.17.0.1 \client\locale\en
+[2024-08-21T23:55:40.884Z] info: 	[Client Request] 172.17.0.1 \client\locations
+[2024-08-21T23:55:40.884Z] debug: 	Map: base has no base json file, skipping generation
+[2024-08-21T23:55:42.153Z] info: 	[Client Request] 172.17.0.1 \client\handbook\templates
+[2024-08-21T23:55:43.957Z] info: 	[Client Request] 172.17.0.1 \client\hideout\areas
+[2024-08-21T23:55:44.096Z] info: 	[Client Request] 172.17.0.1 \client\hideout\qte\list
+[2024-08-21T23:55:44.172Z] info: 	[Client Request] 172.17.0.1 \client\hideout\settings
+[2024-08-21T23:55:44.225Z] info: 	[Client Request] 172.17.0.1 \client\hideout\production\recipes
+[2024-08-21T23:55:44.355Z] info: 	[Client Request] 172.17.0.1 \client\hideout\production\scavcase\recipes
+[2024-08-21T23:55:44.407Z] info: 	[Client Request] 172.17.0.1 \client\builds\list
+[2024-08-21T23:55:46.513Z] info: 	[Client Request] 172.17.0.1 \singleplayer\log
+[2024-08-21T23:55:46.514Z] debug: 	[SPT.Core] 1077896
+[2024-08-21T23:55:46.517Z] info: 	[Client Request] 172.17.0.1 \singleplayer\log
+[2024-08-21T23:55:46.517Z] debug: 	[SPT.Core] 1498960
+[2024-08-21T23:55:46.519Z] info: 	[Client Request] 172.17.0.1 \singleplayer\log
+[2024-08-21T23:55:46.519Z] debug: 	[SPT.Core] 0
+[2024-08-21T23:55:47.558Z] info: 	[Client Request] 172.17.0.1 \client\notifier\channel\create
+[2024-08-21T23:55:47.562Z] info: 	[Client Request] 172.17.0.1 \client\profile\status
+[2024-08-21T23:55:47.564Z] info: 	[Client Request] 172.17.0.1 \client\trading\customization\storage
+[2024-08-21T23:55:47.623Z] info: 	[WS] Player: StoneColdStu (66a97d9a00012b75b3247eb2) has connected
+[2024-08-21T23:55:47.623Z] info: 	WebSocketHandler "SPT WebSocket Handler" connected
+[2024-08-21T23:55:47.671Z] info: 	[Client Request] 172.17.0.1 \client\server\list
+[2024-08-21T23:55:47.674Z] info: 	[Client Request] 172.17.0.1 \client\match\group\current
+[2024-08-21T23:55:47.677Z] info: 	[Client Request] 172.17.0.1 \client\friend\list
+[2024-08-21T23:55:47.723Z] info: 	[Client Request] 172.17.0.1 \client\friend\request\list\inbox
+[2024-08-21T23:55:47.725Z] info: 	[Client Request] 172.17.0.1 \client\mail\dialog\list
+[2024-08-21T23:55:47.727Z] info: 	[Client Request] 172.17.0.1 \client\friend\request\list\outbox
+[2024-08-21T23:55:47.728Z] info: 	[Client Request] 172.17.0.1 \client\quest\list
+[2024-08-21T23:55:48.653Z] info: 	[Client Request] 172.17.0.1 \client\repeatalbeQuests\activityPeriods
+[2024-08-21T23:55:48.654Z] debug: 	Generating new daily
+[2024-08-21T23:55:48.715Z] debug: 	Generating daily quest for: 58330581ace78e27b8b10cee with budget: 59438 totalling: 3 items
+[2024-08-21T23:55:48.717Z] debug: 	Added item: 5d0375ff86f774186372f685 with price: 41200
+[2024-08-21T23:55:48.717Z] debug: 	Reward pool empty with: 18238 roubles of budget remaining
+[2024-08-21T23:55:48.717Z] debug: 	  Adding 0.03 trader reputation reward
+[2024-08-21T23:55:48.717Z] debug: 	  Adding 28.5 skill points to Endurance
+[2024-08-21T23:55:48.749Z] debug: 	Generating daily quest for: 6617beeaa9cfa777ca915b7c with budget: 66939 totalling: 1 items
+[2024-08-21T23:55:48.749Z] debug: 	Added item: 5d03784a86f774203e7e0c4d with price: 62000
+[2024-08-21T23:55:48.749Z] debug: 	Reward pool empty with: 4939 roubles of budget remaining
+[2024-08-21T23:55:48.749Z] debug: 	  Adding 0.02 trader reputation reward
+[2024-08-21T23:55:48.783Z] debug: 	Generating daily quest for: 5ac3b934156ae10c4430e83c with budget: 64630 totalling: 1 items
+[2024-08-21T23:55:48.786Z] debug: 	Added item: 62a09dd4621468534a797ac7 with price: 35000
+[2024-08-21T23:55:48.787Z] debug: 	  Adding 0.02 trader reputation reward
+[2024-08-21T23:55:48.787Z] debug: 	[Quest Check] weekly quests are still valid.
+[2024-08-21T23:55:48.787Z] debug: 	Generating new daily_savage
+[2024-08-21T23:55:48.822Z] debug: 	Generating daily quest for: 579dc571d53a0658a154fbec with budget: 32680 totalling: 2 items
+[2024-08-21T23:55:48.822Z] debug: 	Added item: 5d40419286f774318526545f with price: 22300
+[2024-08-21T23:55:48.823Z] debug: 	Reward pool empty with: 10380 roubles of budget remaining
+[2024-08-21T23:55:48.823Z] debug: 	  Adding 0.05 trader reputation reward
+[2024-08-21T23:55:48.908Z] info: 	[Client Request] 172.17.0.1 \client\achievement\statistic
+[2024-08-21T23:55:48.974Z] info: 	[Client Request] 172.17.0.1 \client\achievement\list
+[2024-08-21T23:55:49.589Z] info: 	[Client Request] 172.17.0.1 \singleplayer\log
+[2024-08-21T23:55:49.590Z] error: 	[SPT.Singleplayer] 1 plugin failed to load due to errors:
+Could not load DanW-QuestingBots because it cannot communicate with the server. Please ensure the mod has been installed correctly.
+
+[2024-08-21T23:55:54.673Z] debug: 	Saved 4 profiles, took: 51.65ms
+[2024-08-21T23:55:55.817Z] info: 	[Client Request] 172.17.0.1 \launcher\profile\info
+[2024-08-21T23:55:55.820Z] info: 	[Client Request] 172.17.0.1 \launcher\server\version
+[2024-08-21T23:56:14.689Z] debug: 	Saved 4 profiles, took: 53.19ms
+[2024-08-21T23:56:34.723Z] debug: 	Saved 4 profiles, took: 66.18ms
+[2024-08-21T23:56:54.755Z] debug: 	Saved 4 profiles, took: 82.62ms
+[2024-08-21T23:56:55.827Z] info: 	[Client Request] 172.17.0.1 \launcher\profile\info
+[2024-08-21T23:56:55.830Z] info: 	[Client Request] 172.17.0.1 \launcher\server\version
+[2024-08-21T23:57:14.751Z] debug: 	Saved 4 profiles, took: 61.61ms
+[2024-08-21T23:57:17.627Z] debug: 	[WS] Pinging player: 66a97d9a00012b75b3247eb2
+[2024-08-21T23:57:28.254Z] info: 	[Client Request] 172.17.0.1 \client\match\group\invite\cancel-all
+[2024-08-21T23:57:28.286Z] info: 	[Client Request] 172.17.0.1 \client\game\logout
+[2024-08-21T23:57:28.373Z] debug: 	Saved 4 profiles, took: 86.10ms

@@ -1,0 +1,349 @@
+[2024-08-22T00:00:45.128Z] error: 	The application had a critical error and failed to run
+[2024-08-22T00:00:45.128Z] error: 	Exception produced: Error
+[2024-08-22T00:00:45.132Z] error: 	
+Stacktrace:
+Error: Cannot inject the dependency "httpServer" at position #5 of "App" constructor. Reason:
+    Cannot inject the dependency "httpListeners" at position #4 of "HttpServer" constructor. Reason:
+        Cannot inject the dependency "httpRouter" at position #0 of "SptHttpListener" constructor. Reason:
+            Cannot inject the dependency "staticRouters" at position #0 of "HttpRouter" constructor. Reason:
+                Cannot inject the dependency "itemEventCallbacks" at position #0 of "ItemEventStaticRouter" constructor. Reason:
+                    Cannot inject the dependency "itemEventRouter" at position #1 of "ItemEventCallbacks" constructor. Reason:
+                        Cannot inject the dependency "itemEventRouters" at position #2 of "ItemEventRouter" constructor. Reason:
+                            Cannot inject the dependency "tradeCallbacks" at position #0 of "TradeItemEventRouter" constructor. Reason:
+                                Cannot inject the dependency "tradeController" at position #0 of "TradeCallbacks" constructor. Reason:
+                                    Cannot read properties of undefined (reading 'getConfig')
+    at /snapshot/project/node_modules/tsyringe/dist/cjs/dependency-container.js:324:23
+    at Array.map (<anonymous>)
+    at /snapshot/project/node_modules/tsyringe/dist/cjs/dependency-container.js:295:38
+    at InternalDependencyContainer.construct (/snapshot/project/node_modules/tsyringe/dist/cjs/dependency-container.js:297:11)
+    at InternalDependencyContainer.resolveRegistration (/snapshot/project/node_modules/tsyringe/dist/cjs/dependency-container.js:166:51)
+    at InternalDependencyContainer.resolve (/snapshot/project/node_modules/tsyringe/dist/cjs/dependency-container.js:109:33)
+    at Program.start (/snapshot/src/Program.ts:28:28)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at process.runNextTicks [as _tickCallback] (node:internal/process/task_queues:64:3)
+    at Function.runMain (pkg/prelude/bootstrap.js:1984:13)
+[2024-08-22T00:00:42.328Z] debug: 	Importing configs...
+[2024-08-22T00:00:42.470Z] info: 	Commit hash: 2529c65e8072a65d32b7e38d436933e3efea4c0f
+[2024-08-22T00:00:42.471Z] info: 	Build date: 1724281469538
+[2024-08-22T00:00:42.677Z] info: 	ModLoader: loading: 3 server mods...
+[2024-08-22T00:00:42.769Z] debug: 	ModLoader: Mod bluehead-AIOTrader is missing from order.json, adding
+[2024-08-22T00:00:42.769Z] debug: 	ModLoader: Mod fika-server is missing from order.json, adding
+[2024-08-22T00:00:42.827Z] debug: 	Mod DanW-SPTQuestingBots hash stored in ./user/cache/modCache.json
+[2024-08-22T00:00:42.969Z] info: 	Mod: SPTQuestingBots version: 0.7.0 by: DanW loaded
+[2024-08-22T00:00:43.063Z] debug: 	Mod bluehead-AIOTrader hash stored in ./user/cache/modCache.json
+[2024-08-22T00:00:43.223Z] info: 	Mod: Bluhead&#39;s AIOTrader version: 4.0.0 by: bluehead loaded
+[2024-08-22T00:00:43.913Z] info: 	Mod: server version: 2.2.8 by: Fika loaded
+[2024-08-22T00:00:44.029Z] debug: 	[AIOTrader]postAkiLoad Start
+[2024-08-22T00:00:44.034Z] info: 	Loading: bluehead: Bluhead's AIOTrader - 4.0.0
+[2024-08-22T00:00:44.035Z] debug: 	[AIOTrader]postAkiLoad loading Bluehead Trader
+[2024-08-22T00:00:44.035Z] debug: 	[AIOTrader.AIOTrader] preAki Loading... 
+[2024-08-22T00:00:44.035Z] debug: 	[AIOTrader.AIOTrader] preAki Loaded
+[2024-08-22T00:00:44.035Z] debug: 	[AIOTrader]postAkiLoad loading Bluehead Trader
+[2024-08-22T00:00:44.035Z] debug: 	[AIOTrader.BlueheadTrader] preAki Loading... 
+[2024-08-22T00:00:44.035Z] debug: 	[AIOTrader.BlueheadTrader] preAki Loaded
+[2024-08-22T00:00:44.035Z] info: 	[AIOTrader]override
+[2024-08-22T00:00:48.719Z] error: 	The application had a critical error and failed to run
+[2024-08-22T00:00:48.719Z] error: 	Exception produced: Error
+[2024-08-22T00:00:48.723Z] error: 	
+Stacktrace:
+Error: Cannot inject the dependency "httpServer" at position #5 of "App" constructor. Reason:
+    Cannot inject the dependency "httpListeners" at position #4 of "HttpServer" constructor. Reason:
+        Cannot inject the dependency "httpRouter" at position #0 of "SptHttpListener" constructor. Reason:
+            Cannot inject the dependency "staticRouters" at position #0 of "HttpRouter" constructor. Reason:
+                Cannot inject the dependency "itemEventCallbacks" at position #0 of "ItemEventStaticRouter" constructor. Reason:
+                    Cannot inject the dependency "itemEventRouter" at position #1 of "ItemEventCallbacks" constructor. Reason:
+                        Cannot inject the dependency "itemEventRouters" at position #2 of "ItemEventRouter" constructor. Reason:
+                            Cannot inject the dependency "tradeCallbacks" at position #0 of "TradeItemEventRouter" constructor. Reason:
+                                Cannot inject the dependency "tradeController" at position #0 of "TradeCallbacks" constructor. Reason:
+                                    Cannot read properties of undefined (reading 'getConfig')
+    at /snapshot/project/node_modules/tsyringe/dist/cjs/dependency-container.js:324:23
+    at Array.map (<anonymous>)
+    at /snapshot/project/node_modules/tsyringe/dist/cjs/dependency-container.js:295:38
+    at InternalDependencyContainer.construct (/snapshot/project/node_modules/tsyringe/dist/cjs/dependency-container.js:297:11)
+    at InternalDependencyContainer.resolveRegistration (/snapshot/project/node_modules/tsyringe/dist/cjs/dependency-container.js:166:51)
+    at InternalDependencyContainer.resolve (/snapshot/project/node_modules/tsyringe/dist/cjs/dependency-container.js:109:33)
+    at Program.start (/snapshot/src/Program.ts:28:28)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at process.runNextTicks [as _tickCallback] (node:internal/process/task_queues:64:3)
+    at Function.runMain (pkg/prelude/bootstrap.js:1984:13)
+[2024-08-22T00:00:46.781Z] debug: 	Importing configs...
+[2024-08-22T00:00:46.922Z] info: 	Commit hash: 2529c65e8072a65d32b7e38d436933e3efea4c0f
+[2024-08-22T00:00:46.922Z] info: 	Build date: 1724281469538
+[2024-08-22T00:00:47.131Z] info: 	ModLoader: loading: 3 server mods...
+[2024-08-22T00:00:47.217Z] debug: 	ModLoader: Mod bluehead-AIOTrader is missing from order.json, adding
+[2024-08-22T00:00:47.217Z] debug: 	ModLoader: Mod fika-server is missing from order.json, adding
+[2024-08-22T00:00:47.235Z] info: 	Mod: SPTQuestingBots version: 0.7.0 by: DanW loaded
+[2024-08-22T00:00:47.263Z] info: 	Mod: Bluhead&#39;s AIOTrader version: 4.0.0 by: bluehead loaded
+[2024-08-22T00:00:47.923Z] info: 	Mod: server version: 2.2.8 by: Fika loaded
+[2024-08-22T00:00:48.047Z] debug: 	[AIOTrader]postAkiLoad Start
+[2024-08-22T00:00:48.053Z] info: 	Loading: bluehead: Bluhead's AIOTrader - 4.0.0
+[2024-08-22T00:00:48.053Z] debug: 	[AIOTrader]postAkiLoad loading Bluehead Trader
+[2024-08-22T00:00:48.053Z] debug: 	[AIOTrader.AIOTrader] preAki Loading... 
+[2024-08-22T00:00:48.053Z] debug: 	[AIOTrader.AIOTrader] preAki Loaded
+[2024-08-22T00:00:48.053Z] debug: 	[AIOTrader]postAkiLoad loading Bluehead Trader
+[2024-08-22T00:00:48.054Z] debug: 	[AIOTrader.BlueheadTrader] preAki Loading... 
+[2024-08-22T00:00:48.054Z] debug: 	[AIOTrader.BlueheadTrader] preAki Loaded
+[2024-08-22T00:00:48.054Z] info: 	[AIOTrader]override
+[2024-08-22T00:03:44.112Z] debug: 	Importing configs...
+[2024-08-22T00:03:44.248Z] info: 	Commit hash: 2529c65e8072a65d32b7e38d436933e3efea4c0f
+[2024-08-22T00:03:44.249Z] info: 	Build date: 1724281469538
+[2024-08-22T00:03:44.439Z] info: 	ModLoader: loading: 2 server mods...
+[2024-08-22T00:03:44.498Z] debug: 	ModLoader: Mod fika-server is missing from order.json, adding
+[2024-08-22T00:03:44.603Z] debug: 	Mod bluehead-AIOTrader hash stored in ./user/cache/modCache.json
+[2024-08-22T00:03:44.817Z] info: 	Mod: Bluhead&#39;s AIOTrader version: 4.0.1 by: bluehead loaded
+[2024-08-22T00:03:45.432Z] info: 	Mod: server version: 2.2.8 by: Fika loaded
+[2024-08-22T00:03:45.506Z] debug: 	[AIOTrader]postAkiLoad Start
+[2024-08-22T00:03:45.511Z] info: 	Loading: bluehead: Bluhead's AIOTrader - 4.0.1
+[2024-08-22T00:03:45.511Z] debug: 	[AIOTrader]postAkiLoad loading Bluehead Trader
+[2024-08-22T00:03:45.511Z] debug: 	[AIOTrader.AIOTrader] preAki Loading... 
+[2024-08-22T00:03:45.511Z] debug: 	[AIOTrader.AIOTrader] preAki Loaded
+[2024-08-22T00:03:45.511Z] debug: 	[AIOTrader]postAkiLoad loading Bluehead Trader
+[2024-08-22T00:03:45.511Z] debug: 	[AIOTrader.BlueheadTrader] preAki Loading... 
+[2024-08-22T00:03:45.511Z] debug: 	[AIOTrader.BlueheadTrader] preAki Loaded
+[2024-08-22T00:03:45.512Z] debug: 	[AIOTrader]override
+[2024-08-22T00:03:46.148Z] debug: 	BlueheadTrader: CustomTradeController construct
+[2024-08-22T00:03:46.177Z] info: 	Server: executing startup callbacks...
+[2024-08-22T00:03:46.178Z] debug: 	OS: x64 | #1 SMP Fri Mar 29 23:14:13 UTC 2024 | linux
+[2024-08-22T00:03:46.178Z] debug: 	CPU: 11th Gen Intel(R) Core(TM) i7-11700K @ 3.60GHz cores: 16
+[2024-08-22T00:03:46.178Z] debug: 	RAM: 23.40GB
+[2024-08-22T00:03:46.183Z] debug: 	PATH: L29wdC9zZXJ2ZXIvU1BULlNlcnZlci5leGU=
+[2024-08-22T00:03:46.183Z] debug: 	PATH: L29wdC9zZXJ2ZXIvU1BULlNlcnZlci5leGU=
+[2024-08-22T00:03:46.183Z] debug: 	Server: 3.9.5
+[2024-08-22T00:03:46.183Z] debug: 	Date: 1724281469538
+[2024-08-22T00:03:46.183Z] debug: 	Commit: 2529c65e8072a65d32b7e38d436933e3efea4c0f
+[2024-08-22T00:03:46.186Z] info: 	Importing database...
+[2024-08-22T00:03:51.455Z] info: 	Database import finished
+[2024-08-22T00:03:52.098Z] debug: 	[AIOTrader]postDBLoad Start
+[2024-08-22T00:03:52.098Z] debug: 	[AIOTrader]loading AIO_Injector_case
+[2024-08-22T00:03:52.100Z] debug: 	[AIOTrader]loading AIO Trader
+[2024-08-22T00:03:52.100Z] debug: 	[AIOTrader.AIOTrader] postDb Loading... 
+[2024-08-22T00:03:52.101Z] debug: 	[object Object]
+[2024-08-22T00:03:52.118Z] info: 	AIOTrader: Total num of items 3806
+[2024-08-22T00:03:52.118Z] debug: 	[AIOTrader.AIOTrader] postDb Loaded
+[2024-08-22T00:03:52.118Z] debug: 	[AIOTrader]postDBLoad loading Bluehead Trader
+[2024-08-22T00:03:52.119Z] debug: 	[AIOTrader.BlueheadTrader] postDb Loading... 
+[2024-08-22T00:03:52.120Z] info: 	BlueheadTrader: Total num of keys 206
+[2024-08-22T00:03:52.121Z] info: 	BlueheadTrader: Total num of ammo 186
+[2024-08-22T00:03:52.121Z] debug: 	[AIOTrader.BlueheadTrader] postDb Loaded
+[2024-08-22T00:03:52.192Z] debug: 	4 Profiles took: 150.03ms to load.
+[2024-08-22T00:03:56.123Z] succ: 	Started webserver at http://0.0.0.0:6969
+[2024-08-22T00:03:56.123Z] succ: 	Started websocket at ws://0.0.0.0:6969
+[2024-08-22T00:03:56.123Z] succ: 	Server is running, do not close while playing SPT, Happy playing!!
+[2024-08-22T00:04:01.247Z] debug: 	Saved 4 profiles, took: 105.84ms
+[2024-08-22T00:04:21.165Z] debug: 	Saved 4 profiles, took: 19.17ms
+[2024-08-22T00:04:24.238Z] debug: 	Importing configs...
+[2024-08-22T00:04:24.376Z] info: 	Commit hash: 2529c65e8072a65d32b7e38d436933e3efea4c0f
+[2024-08-22T00:04:24.376Z] info: 	Build date: 1724281469538
+[2024-08-22T00:04:24.578Z] info: 	ModLoader: loading: 2 server mods...
+[2024-08-22T00:04:24.640Z] debug: 	ModLoader: Mod fika-server is missing from order.json, adding
+[2024-08-22T00:04:24.677Z] info: 	Mod: Bluhead&#39;s AIOTrader version: 4.0.1 by: bluehead loaded
+[2024-08-22T00:04:25.224Z] info: 	Mod: server version: 2.2.8 by: Fika loaded
+[2024-08-22T00:04:25.290Z] debug: 	[AIOTrader]postAkiLoad Start
+[2024-08-22T00:04:25.294Z] info: 	Loading: bluehead: Bluhead's AIOTrader - 4.0.1
+[2024-08-22T00:04:25.295Z] debug: 	[AIOTrader]postAkiLoad loading Bluehead Trader
+[2024-08-22T00:04:25.295Z] debug: 	[AIOTrader.AIOTrader] preAki Loading... 
+[2024-08-22T00:04:25.295Z] debug: 	[AIOTrader.AIOTrader] preAki Loaded
+[2024-08-22T00:04:25.295Z] debug: 	[AIOTrader]postAkiLoad loading Bluehead Trader
+[2024-08-22T00:04:25.295Z] debug: 	[AIOTrader.BlueheadTrader] preAki Loading... 
+[2024-08-22T00:04:25.295Z] debug: 	[AIOTrader.BlueheadTrader] preAki Loaded
+[2024-08-22T00:04:25.295Z] debug: 	[AIOTrader]override
+[2024-08-22T00:04:25.870Z] debug: 	BlueheadTrader: CustomTradeController construct
+[2024-08-22T00:04:25.890Z] info: 	Server: executing startup callbacks...
+[2024-08-22T00:04:25.890Z] debug: 	OS: x64 | #1 SMP Fri Mar 29 23:14:13 UTC 2024 | linux
+[2024-08-22T00:04:25.890Z] debug: 	CPU: 11th Gen Intel(R) Core(TM) i7-11700K @ 3.60GHz cores: 16
+[2024-08-22T00:04:25.891Z] debug: 	RAM: 23.40GB
+[2024-08-22T00:04:25.894Z] debug: 	PATH: L29wdC9zZXJ2ZXIvU1BULlNlcnZlci5leGU=
+[2024-08-22T00:04:25.894Z] debug: 	PATH: L29wdC9zZXJ2ZXIvU1BULlNlcnZlci5leGU=
+[2024-08-22T00:04:25.894Z] debug: 	Server: 3.9.5
+[2024-08-22T00:04:25.895Z] debug: 	Date: 1724281469538
+[2024-08-22T00:04:25.895Z] debug: 	Commit: 2529c65e8072a65d32b7e38d436933e3efea4c0f
+[2024-08-22T00:04:25.898Z] info: 	Importing database...
+[2024-08-22T00:04:31.046Z] info: 	Database import finished
+[2024-08-22T00:04:31.735Z] debug: 	[AIOTrader]postDBLoad Start
+[2024-08-22T00:04:31.735Z] debug: 	[AIOTrader]loading AIO_Injector_case
+[2024-08-22T00:04:31.736Z] debug: 	[AIOTrader]loading AIO Trader
+[2024-08-22T00:04:31.736Z] debug: 	[AIOTrader.AIOTrader] postDb Loading... 
+[2024-08-22T00:04:31.737Z] debug: 	[object Object]
+[2024-08-22T00:04:31.755Z] info: 	AIOTrader: Total num of items 3806
+[2024-08-22T00:04:31.755Z] debug: 	[AIOTrader.AIOTrader] postDb Loaded
+[2024-08-22T00:04:31.755Z] debug: 	[AIOTrader]postDBLoad loading Bluehead Trader
+[2024-08-22T00:04:31.756Z] debug: 	[AIOTrader.BlueheadTrader] postDb Loading... 
+[2024-08-22T00:04:31.757Z] info: 	BlueheadTrader: Total num of keys 206
+[2024-08-22T00:04:31.758Z] info: 	BlueheadTrader: Total num of ammo 186
+[2024-08-22T00:04:31.758Z] debug: 	[AIOTrader.BlueheadTrader] postDb Loaded
+[2024-08-22T00:04:31.812Z] debug: 	4 Profiles took: 131.49ms to load.
+[2024-08-22T00:04:35.677Z] succ: 	Started webserver at http://0.0.0.0:6969
+[2024-08-22T00:04:35.677Z] succ: 	Started websocket at ws://0.0.0.0:6969
+[2024-08-22T00:04:35.678Z] succ: 	Server is running, do not close while playing SPT, Happy playing!!
+[2024-08-22T00:04:40.817Z] debug: 	Saved 4 profiles, took: 112.04ms
+[2024-08-22T00:04:49.208Z] info: 	[Client Request] 172.17.0.1 \launcher\server\connect
+[2024-08-22T00:04:49.227Z] info: 	[Client Request] 172.17.0.1 \launcher\ping
+[2024-08-22T00:04:49.233Z] info: 	[Client Request] 172.17.0.1 \launcher\server\version
+[2024-08-22T00:04:49.242Z] info: 	[Client Request] 172.17.0.1 \files\launcher\bg.png
+[2024-08-22T00:04:49.270Z] info: 	[Client Request] 172.17.0.1 \launcher\ping
+[2024-08-22T00:04:49.313Z] info: 	[Client Request] 172.17.0.1 \launcher\profile\login
+[2024-08-22T00:04:49.317Z] info: 	[Client Request] 172.17.0.1 \launcher\profile\get
+[2024-08-22T00:04:49.324Z] info: 	[Client Request] 172.17.0.1 \launcher\profile\info
+[2024-08-22T00:04:49.332Z] info: 	[Client Request] 172.17.0.1 \launcher\server\version
+[2024-08-22T00:04:49.441Z] info: 	[Client Request] 172.17.0.1 \launcher\server\loadedServerMods
+[2024-08-22T00:04:49.448Z] info: 	[Client Request] 172.17.0.1 \launcher\server\serverModsUsedByProfile
+[2024-08-22T00:04:49.476Z] info: 	[Client Request] 172.17.0.1 \files\launcher\side_bear.png
+[2024-08-22T00:04:49.484Z] info: 	[Client Request] 172.17.0.1 \launcher\profile\login
+[2024-08-22T00:04:49.487Z] info: 	[Client Request] 172.17.0.1 \launcher\profile\get
+[2024-08-22T00:04:49.490Z] info: 	[Client Request] 172.17.0.1 \launcher\profile\info
+[2024-08-22T00:04:49.494Z] info: 	[Client Request] 172.17.0.1 \launcher\server\version
+[2024-08-22T00:05:00.743Z] debug: 	Saved 4 profiles, took: 30.32ms
+[2024-08-22T00:05:13.069Z] info: 	[Client Request] 172.17.0.1 \launcher\profile\login
+[2024-08-22T00:05:13.073Z] info: 	[Client Request] 172.17.0.1 \launcher\profile\get
+[2024-08-22T00:05:13.075Z] info: 	[Client Request] 172.17.0.1 \launcher\profile\info
+[2024-08-22T00:05:13.078Z] info: 	[Client Request] 172.17.0.1 \launcher\server\version
+[2024-08-22T00:05:13.149Z] info: 	[Client Request] 172.17.0.1 \launcher\server\version
+[2024-08-22T00:05:20.757Z] debug: 	Saved 4 profiles, took: 43.23ms
+[2024-08-22T00:05:27.781Z] info: 	[Client Request] 172.17.0.1 \singleplayer\bossconvert
+[2024-08-22T00:05:28.651Z] info: 	[Client Request] 172.17.0.1 \fika\natpunchserver\config
+[2024-08-22T00:05:29.315Z] info: 	[Client Request] 172.17.0.1 \fika\client\config
+[2024-08-22T00:05:29.332Z] info: 	[Client Request] 172.17.0.1 \singleplayer\airdrop\config
+[2024-08-22T00:05:29.354Z] info: 	[Client Request] 172.17.0.1 \singleplayer\settings\bot\difficulties\
+[2024-08-22T00:05:29.465Z] info: 	[Client Request] 172.17.0.1 \singleplayer\settings\bot\difficulty\core\core
+[2024-08-22T00:05:38.690Z] info: 	[Client Request] 172.17.0.1 \singleplayer\settings\version
+[2024-08-22T00:05:38.694Z] info: 	[Client Request] 172.17.0.1 \singleplayer\release
+[2024-08-22T00:05:38.700Z] info: 	[Client Request] 172.17.0.1 \singleplayer\enableBSGlogging
+[2024-08-22T00:05:39.472Z] info: 	[Client Request] 172.17.0.1 \MoreCheckmarksRoutes\quests
+[2024-08-22T00:05:39.473Z] error: 	[UNHANDLED][/MoreCheckmarksRoutes/quests]
+[2024-08-22T00:05:39.474Z] info: 	[object Object]
+[2024-08-22T00:05:40.040Z] info: 	[Client Request] 172.17.0.1 \singleplayer\bundles
+[2024-08-22T00:05:40.757Z] debug: 	Saved 4 profiles, took: 33.41ms
+[2024-08-22T00:05:45.006Z] info: 	[Client Request] 172.17.0.1 \singleplayer\settings\version
+[2024-08-22T00:05:45.232Z] info: 	[Client Request] 172.17.0.1 \client\menu\locale\en
+[2024-08-22T00:05:45.303Z] info: 	[Client Request] 172.17.0.1 \client\game\mode
+[2024-08-22T00:05:45.356Z] info: 	[Client Request] 172.17.0.1 \client\game\start
+[2024-08-22T00:05:45.357Z] debug: 	Added custom boss wave to factory4_day of type pmcBEAR, time: -1, chance: 25, zone: BotZone
+[2024-08-22T00:05:45.357Z] debug: 	Added custom boss wave to factory4_day of type pmcUSEC, time: -1, chance: 25, zone: BotZone
+[2024-08-22T00:05:45.357Z] debug: 	Added custom boss wave to bigmap of type pmcBEAR, time: -1, chance: 25, zone: ZoneScavBase
+[2024-08-22T00:05:45.357Z] debug: 	Added custom boss wave to bigmap of type pmcUSEC, time: -1, chance: 25, zone: ZoneScavBase
+[2024-08-22T00:05:45.357Z] debug: 	Added custom boss wave to woods of type pmcBEAR, time: -1, chance: 25, zone: ZoneScavBase2
+[2024-08-22T00:05:45.357Z] debug: 	Added custom boss wave to woods of type pmcUSEC, time: -1, chance: 25, zone: ZoneScavBase2
+[2024-08-22T00:05:45.357Z] debug: 	Added custom boss wave to woods of type pmcBEAR, time: -1, chance: 25, zone: ZoneRoad
+[2024-08-22T00:05:45.357Z] debug: 	Added custom boss wave to woods of type pmcUSEC, time: -1, chance: 25, zone: ZoneRoad
+[2024-08-22T00:05:45.357Z] debug: 	Added custom boss wave to woods of type pmcBEAR, time: -1, chance: 25, zone: ZoneClearVill
+[2024-08-22T00:05:45.357Z] debug: 	Added custom boss wave to woods of type pmcUSEC, time: -1, chance: 25, zone: ZoneClearVill
+[2024-08-22T00:05:45.357Z] debug: 	Added custom boss wave to shoreline of type pmcBEAR, time: -1, chance: 20, zone: ZonePort
+[2024-08-22T00:05:45.357Z] debug: 	Added custom boss wave to shoreline of type pmcUSEC, time: -1, chance: 20, zone: ZonePort
+[2024-08-22T00:05:45.357Z] debug: 	Added custom boss wave to shoreline of type pmcUSEC, time: -1, chance: 10, zone: ZoneSanatorium1
+[2024-08-22T00:05:45.357Z] debug: 	Added custom boss wave to shoreline of type pmcBEAR, time: -1, chance: 10, zone: ZoneSanatorium1
+[2024-08-22T00:05:45.357Z] debug: 	Added custom boss wave to shoreline of type pmcUSEC, time: -1, chance: 10, zone: ZoneSanatorium2
+[2024-08-22T00:05:45.357Z] debug: 	Added custom boss wave to shoreline of type pmcBEAR, time: -1, chance: 10, zone: ZoneSanatorium2
+[2024-08-22T00:05:45.357Z] debug: 	Added custom boss wave to laboratory of type pmcBEAR, time: -1, chance: 30, zone: BotZoneFloor1
+[2024-08-22T00:05:45.357Z] debug: 	Added custom boss wave to laboratory of type pmcBEAR, time: -1, chance: 30, zone: BotZoneFloor2
+[2024-08-22T00:05:45.357Z] debug: 	Added custom boss wave to laboratory of type pmcBEAR, time: -1, chance: 30, zone: BotZoneBasement
+[2024-08-22T00:05:45.357Z] debug: 	Added custom boss wave to laboratory of type pmcUSEC, time: -1, chance: 30, zone: BotZoneFloor1
+[2024-08-22T00:05:45.357Z] debug: 	Added custom boss wave to laboratory of type pmcUSEC, time: -1, chance: 30, zone: BotZoneFloor2
+[2024-08-22T00:05:45.357Z] debug: 	Added custom boss wave to laboratory of type pmcUSEC, time: -1, chance: 30, zone: BotZoneBasement
+[2024-08-22T00:05:45.357Z] debug: 	Added custom boss wave to interchange of type pmcBEAR, time: -1, chance: 15, zone: ZoneCenter,ZoneCenterBot,ZoneOLI,ZoneIDEA,ZoneGoshan,ZonePowerStation
+[2024-08-22T00:05:45.358Z] debug: 	Added custom boss wave to interchange of type pmcUSEC, time: -1, chance: 15, zone: ZoneCenter,ZoneCenterBot,ZoneOLI,ZoneIDEA,ZoneGoshan,ZonePowerStation
+[2024-08-22T00:05:45.358Z] debug: 	Added custom boss wave to lighthouse of type pmcBEAR, time: -1, chance: 15, zone: Zone_Village,Zone_Chalet,Zone_DestroyedHouse,Zone_Rocks,Zone_OldHouse
+[2024-08-22T00:05:45.358Z] debug: 	Added custom boss wave to lighthouse of type pmcUSEC, time: -1, chance: 15, zone: Zone_Village,Zone_Chalet,Zone_DestroyedHouse,Zone_Rocks,Zone_OldHouse
+[2024-08-22T00:05:45.358Z] debug: 	Added custom boss wave to rezervbase of type pmcBEAR, time: -1, chance: 15, zone: ZoneBarrack,ZonePTOR1,ZonePTOR2,ZoneSubCommand,ZoneSubStorage,ZoneRailStrorage
+[2024-08-22T00:05:45.358Z] debug: 	Added custom boss wave to rezervbase of type pmcBEAR, time: -1, chance: 15, zone: ZoneBarrack,ZonePTOR1,ZonePTOR2,ZoneSubCommand,ZoneSubStorage,ZoneRailStrorage
+[2024-08-22T00:05:45.358Z] debug: 	Added custom boss wave to rezervbase of type pmcUSEC, time: -1, chance: 15, zone: ZoneBarrack,ZonePTOR1,ZonePTOR2,ZoneSubCommand,ZoneSubStorage,ZoneRailStrorage
+[2024-08-22T00:05:45.358Z] debug: 	Added custom boss wave to rezervbase of type pmcUSEC, time: -1, chance: 15, zone: ZoneBarrack,ZonePTOR1,ZonePTOR2,ZoneSubCommand,ZoneSubStorage,ZoneRailStrorage
+[2024-08-22T00:05:45.358Z] debug: 	Added custom boss wave to sandbox of type pmcBEAR, time: -1, chance: 30, zone: ZoneSandbox
+[2024-08-22T00:05:45.358Z] debug: 	Added custom boss wave to sandbox of type pmcUSEC, time: -1, chance: 30, zone: ZoneSandbox
+[2024-08-22T00:05:45.358Z] debug: 	Added custom boss wave to sandbox_high of type pmcBEAR, time: -1, chance: 30, zone: ZoneSandbox
+[2024-08-22T00:05:45.358Z] debug: 	Added custom boss wave to sandbox_high of type pmcUSEC, time: -1, chance: 30, zone: ZoneSandbox
+[2024-08-22T00:05:45.358Z] debug: 	Started game with sessionId: 66a97d9a00012b75b3247eb2 StoneColdStu
+[2024-08-22T00:05:45.359Z] debug: 	Fixed assault Spawn: bigmap wave: 0 of type: assault in zone: ZoneBrige with Max Slots of 0
+[2024-08-22T00:05:45.359Z] debug: 	Fixed assault Spawn: bigmap wave: 1 of type: assault in zone: ZoneCrossRoad with Max Slots of 0
+[2024-08-22T00:05:45.359Z] debug: 	Fixed assault Spawn: bigmap wave: 15 of type: assault in zone: ZoneBlockPost with Max Slots of 0
+[2024-08-22T00:05:45.359Z] debug: 	Fixed assault Spawn: bigmap wave: 0 of type: assault in zone:  with Max Slots of 0
+[2024-08-22T00:05:45.359Z] debug: 	Fixed marksman Spawn: lighthouse wave: 2 of type: marksman in zone: Zone_SniperPeak with Max Slots of 1
+[2024-08-22T00:05:45.359Z] debug: 	Fixed assault Spawn: rezervbase wave: 2 of type: assault in zone:  with Max Slots of 2
+[2024-08-22T00:05:45.359Z] debug: 	Fixed assault Spawn: rezervbase wave: 7 of type: assault in zone:  with Max Slots of 2
+[2024-08-22T00:05:45.359Z] debug: 	Fixed marksman Spawn: sandbox wave: 4 of type: marksman in zone: ZoneSandSnipeCenter with Max Slots of 1
+[2024-08-22T00:05:45.359Z] debug: 	Fixed marksman Spawn: sandbox wave: 6 of type: marksman in zone: ZoneSandSnipeCenter with Max Slots of 1
+[2024-08-22T00:05:45.359Z] debug: 	Fixed marksman Spawn: sandbox wave: 8 of type: marksman in zone: ZoneSandSnipeCenter with Max Slots of 1
+[2024-08-22T00:05:45.359Z] debug: 	Fixed marksman Spawn: sandbox wave: 9 of type: marksman in zone: ZoneSandSnipeCenter with Max Slots of 1
+[2024-08-22T00:05:45.359Z] debug: 	Fixed marksman Spawn: sandbox_high wave: 3 of type: marksman in zone: ZoneSnipeStilo with Max Slots of 1
+[2024-08-22T00:05:45.359Z] debug: 	Fixed marksman Spawn: sandbox_high wave: 5 of type: marksman in zone: ZoneSnipeCard with Max Slots of 1
+[2024-08-22T00:05:45.359Z] debug: 	Fixed marksman Spawn: sandbox_high wave: 7 of type: marksman in zone: ZoneSnipeBuilding with Max Slots of 1
+[2024-08-22T00:05:45.359Z] debug: 	Fixed marksman Spawn: sandbox_high wave: 8 of type: marksman in zone: ZoneSnipeSW01 with Max Slots of 1
+[2024-08-22T00:05:45.359Z] debug: 	Fixed marksman Spawn: shoreline wave: 9 of type: marksman in zone: ZonePowerStationSniper with Max Slots of 0
+[2024-08-22T00:05:45.360Z] debug: 	Fixed assault Spawn: woods wave: 6 of type: assault in zone: ZoneWoodCutter with Max Slots of 0
+[2024-08-22T00:05:45.360Z] debug: 	Fixed assault Spawn: woods wave: 7 of type: assault in zone: ZoneBigRocks with Max Slots of 0
+[2024-08-22T00:05:45.360Z] debug: 	Fixed assault Spawn: woods wave: 8 of type: assault in zone: ZoneRoad with Max Slots of 0
+[2024-08-22T00:05:45.360Z] debug: 	Fixed marksman Spawn: woods wave: 9 of type: marksman in zone: ZoneHighRocks with Max Slots of 1
+[2024-08-22T00:05:45.360Z] debug: 	Splitting map: bigmap wave: 19 with 4 bots
+[2024-08-22T00:05:45.360Z] debug: 	Splitting map: bigmap wave: 24 with 4 bots
+[2024-08-22T00:05:45.360Z] debug: 	Splitting map: Lighthouse wave: 3 with 4 bots
+[2024-08-22T00:05:45.360Z] debug: 	Splitting map: Shoreline wave: 16 with 4 bots
+[2024-08-22T00:05:45.360Z] debug: 	Splitting map: Shoreline wave: 27 with 5 bots
+[2024-08-22T00:05:45.360Z] debug: 	Splitting map: Shoreline wave: 32 with 5 bots
+[2024-08-22T00:05:45.360Z] debug: 	Splitting map: Shoreline wave: 37 with 6 bots
+[2024-08-22T00:05:45.360Z] debug: 	Splitting map: Shoreline wave: 43 with 6 bots
+[2024-08-22T00:05:45.360Z] debug: 	Splitting map: Woods wave: 15 with 4 bots
+[2024-08-22T00:05:45.361Z] debug: 	Splitting map: Woods wave: 19 with 4 bots
+[2024-08-22T00:05:45.361Z] debug: 	Splitting map: Woods wave: 23 with 4 bots
+[2024-08-22T00:05:45.361Z] debug: 	Splitting map: Woods wave: 27 with 5 bots
+[2024-08-22T00:05:45.361Z] debug: 	Splitting map: Woods wave: 32 with 4 bots
+[2024-08-22T00:05:45.366Z] debug: 	Profile made with: 3.9.4 (30626)
+[2024-08-22T00:05:45.367Z] debug: 	Server version: 3.9.5 2529c65e8072a65d32b7e38d436933e3efea4c0f
+[2024-08-22T00:05:45.367Z] debug: 	Debug enabled: false
+[2024-08-22T00:05:45.367Z] debug: 	Mods enabled: true
+[2024-08-22T00:05:45.439Z] info: 	[Client Request] 172.17.0.1 \client\game\version\validate
+[2024-08-22T00:05:45.492Z] info: 	[Client Request] 172.17.0.1 \client\languages
+[2024-08-22T00:05:45.536Z] info: 	[Client Request] 172.17.0.1 \client\game\config
+[2024-08-22T00:05:46.677Z] info: 	[Client Request] 172.17.0.1 \fika\client\check\version
+[2024-08-22T00:05:46.698Z] info: 	[Client Request] 172.17.0.1 \fika\client\check\mods
+[2024-08-22T00:05:48.106Z] info: 	[Client Request] 172.17.0.1 \client\items
+[2024-08-22T00:05:55.180Z] info: 	[Client Request] 172.17.0.1 \client\customization
+[2024-08-22T00:05:55.385Z] info: 	[Client Request] 172.17.0.1 \client\globals
+[2024-08-22T00:05:56.083Z] info: 	[Client Request] 172.17.0.1 \client\trading\api\traderSettings
+[2024-08-22T00:05:56.151Z] info: 	[Client Request] 172.17.0.1 \client\settings
+[2024-08-22T00:05:56.204Z] info: 	[Client Request] 172.17.0.1 \client\game\profile\list
+[2024-08-22T00:05:56.935Z] info: 	[Client Request] 172.17.0.1 \client\game\profile\select
+[2024-08-22T00:05:56.982Z] info: 	[Client Request] 172.17.0.1 \client\profile\status
+[2024-08-22T00:05:57.047Z] info: 	[Client Request] 172.17.0.1 \client\weather
+[2024-08-22T00:05:57.052Z] info: 	[Client Request] 172.17.0.1 \client\locale\en
+[2024-08-22T00:05:57.080Z] info: 	[Client Request] 172.17.0.1 \client\locations
+[2024-08-22T00:05:57.080Z] debug: 	Map: base has no base json file, skipping generation
+[2024-08-22T00:05:58.106Z] info: 	[Client Request] 172.17.0.1 \client\handbook\templates
+[2024-08-22T00:05:59.707Z] info: 	[Client Request] 172.17.0.1 \client\hideout\areas
+[2024-08-22T00:05:59.863Z] info: 	[Client Request] 172.17.0.1 \client\hideout\qte\list
+[2024-08-22T00:06:00.000Z] info: 	[Client Request] 172.17.0.1 \client\hideout\settings
+[2024-08-22T00:06:00.052Z] info: 	[Client Request] 172.17.0.1 \client\hideout\production\recipes
+[2024-08-22T00:06:00.168Z] info: 	[Client Request] 172.17.0.1 \client\hideout\production\scavcase\recipes
+[2024-08-22T00:06:00.219Z] info: 	[Client Request] 172.17.0.1 \client\builds\list
+[2024-08-22T00:06:00.769Z] debug: 	Saved 4 profiles, took: 51.23ms
+[2024-08-22T00:06:02.689Z] info: 	[Client Request] 172.17.0.1 \singleplayer\log
+[2024-08-22T00:06:02.690Z] debug: 	[SPT.Core] 1077896
+[2024-08-22T00:06:02.693Z] info: 	[Client Request] 172.17.0.1 \singleplayer\log
+[2024-08-22T00:06:02.693Z] debug: 	[SPT.Core] 1498960
+[2024-08-22T00:06:02.697Z] info: 	[Client Request] 172.17.0.1 \singleplayer\log
+[2024-08-22T00:06:02.697Z] debug: 	[SPT.Core] 0
+[2024-08-22T00:06:03.695Z] info: 	[Client Request] 172.17.0.1 \client\notifier\channel\create
+[2024-08-22T00:06:03.701Z] info: 	[Client Request] 172.17.0.1 \client\profile\status
+[2024-08-22T00:06:03.705Z] info: 	[Client Request] 172.17.0.1 \client\trading\customization\storage
+[2024-08-22T00:06:03.753Z] info: 	[WS] Player: StoneColdStu (66a97d9a00012b75b3247eb2) has connected
+[2024-08-22T00:06:03.754Z] info: 	WebSocketHandler "SPT WebSocket Handler" connected
+[2024-08-22T00:06:03.790Z] info: 	[Client Request] 172.17.0.1 \client\server\list
+[2024-08-22T00:06:03.793Z] info: 	[Client Request] 172.17.0.1 \client\match\group\current
+[2024-08-22T00:06:03.796Z] info: 	[Client Request] 172.17.0.1 \client\friend\list
+[2024-08-22T00:06:03.799Z] info: 	[Client Request] 172.17.0.1 \client\friend\request\list\inbox
+[2024-08-22T00:06:03.803Z] info: 	[Client Request] 172.17.0.1 \client\friend\request\list\outbox
+[2024-08-22T00:06:03.805Z] info: 	[Client Request] 172.17.0.1 \client\mail\dialog\list
+[2024-08-22T00:06:03.807Z] info: 	[Client Request] 172.17.0.1 \client\quest\list
+[2024-08-22T00:06:04.732Z] info: 	[Client Request] 172.17.0.1 \client\repeatalbeQuests\activityPeriods
+[2024-08-22T00:06:04.733Z] debug: 	[Quest Check] daily quests are still valid.
+[2024-08-22T00:06:04.734Z] debug: 	[Quest Check] weekly quests are still valid.
+[2024-08-22T00:06:04.734Z] debug: 	[Quest Check] daily_savage quests are still valid.
+[2024-08-22T00:06:04.881Z] info: 	[Client Request] 172.17.0.1 \client\achievement\statistic
+[2024-08-22T00:06:04.987Z] info: 	[Client Request] 172.17.0.1 \client\achievement\list
+[2024-08-22T00:06:13.802Z] info: 	[Client Request] 172.17.0.1 \launcher\profile\info
+[2024-08-22T00:06:13.805Z] info: 	[Client Request] 172.17.0.1 \launcher\server\version
+[2024-08-22T00:06:20.775Z] debug: 	Saved 4 profiles, took: 48.50ms
+[2024-08-22T00:06:24.221Z] info: 	[Client Request] 172.17.0.1 \client\match\group\invite\cancel-all
+[2024-08-22T00:06:24.260Z] info: 	[Client Request] 172.17.0.1 \client\game\logout
+[2024-08-22T00:06:24.298Z] debug: 	Saved 4 profiles, took: 37.94ms
+[2024-08-22T00:06:25.796Z] info: 	[Client Request] 172.17.0.1 \launcher\profile\info
+[2024-08-22T00:06:25.799Z] info: 	[Client Request] 172.17.0.1 \launcher\server\version
+[2024-08-22T00:06:40.805Z] debug: 	Saved 4 profiles, took: 60.82ms

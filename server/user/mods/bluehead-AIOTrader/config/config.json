@@ -1,0 +1,15 @@
+{
+  "enable": true,
+  "enable_aio_trader": true,
+  "enable_bluehead_trader": true,
+  "enable_aio_injector_case": true,
+  "realistic_price": {
+    "enable": false,
+    "custom_price": {
+      "item_id": { "price":222, "currency": "doller" },
+      "item_id2": { "price":333, "currency": "ruble" },
+      "item_id3": { "price":444, "currency": "eur" }
+    },
+    "hide_no_price_item": true
+  }
+}
